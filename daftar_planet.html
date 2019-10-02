@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 3</title>
+</head>
+<body>
+    <center>
+        <h1>Daftar Planet</h1>
+        <table id="rankings-table" class="table">
+                
+            <thead>
+                    <th>No</th>
+                    <th>Nama Planet</th>
+                    <th>Revolusi Periode</th>
+                    <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                              <a href="#about">Terlama</a>
+                              <a href="#base">Tercepat</a>
+                            </div>
+                          </div>
+                    <th>Rotasi Periode</th>
+                    <th>Diameter</th>
+                    <th>Jarak Matahari</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Merkurius</td>
+                    <td>88 hari</td>
+                    <td>59 hari</td>
+                    <td>4.879 km </td>
+                    <td>57, 8 juta km</td>
+                </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Venus</td>
+                <td>225 hari</td>
+                <td>243 hari</td>
+                <td>12.100 km</td>
+                <td>108 juta km</td>
+            </tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>3</td>
+            <td>Bumi</td>
+            <td>365,25 hari</td>
+            <td>24 jam</td>
+            <td>12.700 km </td>
+            <td>149 juta km</td>
+        </tr>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>4</td>
+        <td>Mars</td>
+        <td>687 hari</td>
+        <td>24,6 hari</td>
+        <td>6.800 km</td>
+        <td>247,1 Juta km</td>
+    </tr>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>5</td>
+        <td>Yupiter</td>
+        <td>11,9 tahun</td>
+        <td>9,8 jam</td>
+        <td>143.000 km </td>
+        <td>778 juta km</td>
+    </tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>6</td>
+    <td>Saturnus</td>
+    <td>29,5 tahun</td>
+    <td>10,2 jam</td>
+    <td>120.000 km</td>
+    <td>1.427 juta km</td>
+</tr>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>7</td>
+        <td>Uranus</td>
+        <td>84 tahun</td>
+        <td>17,2 jam</td>
+        <td>51.000 km </td>
+        <td>2870 juta km</td>
+    </tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>8</td>
+    <td>Neptunus</td>
+    <td>164,8 tahun</td>
+    <td>15,8 jam</td>
+    <td>50.000 km</td>
+    <td>4.497 juta km</td>
+</tr>   
+            </tbody>
+    </center>
+    <script type="text/javascript">
+    const rankingsBody = document.querySelector("#rankings-table > rbody");
+
+    console.log(rankingsBody);
+    </script>
+     
+</body>
+</html>
